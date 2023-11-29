@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDStreamInfo", "XDStreamInfo\XDStreamInfo.csproj", "{2D96294B-1E46-4EE4-A388-A2A617D1FA05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{682E5C37-5FA6-4266-ACB1-4AA084AF2ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDStreamInfoTests", "..\tests\XDStreamInfoTests\XDStreamInfoTests.csproj", "{62A34EF4-4BA9-4D42-9321-829CD83BDB49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{FA2FD8A1-2639-495C-954E-73D8DF74AE33}"
+	ProjectSection(SolutionItems) = preProject
+		..\tests\data\detect_utf8_bom.xml = ..\tests\data\detect_utf8_bom.xml
+		..\tests\data\detect_utf8_nobom.xml = ..\tests\data\detect_utf8_nobom.xml
+		..\tests\data\detect_utf16be_bom.xml = ..\tests\data\detect_utf16be_bom.xml
+		..\tests\data\detect_utf16be_nobom.xml = ..\tests\data\detect_utf16be_nobom.xml
+		..\tests\data\detect_utf16le_bom.xml = ..\tests\data\detect_utf16le_bom.xml
+		..\tests\data\detect_utf16le_nobom.xml = ..\tests\data\detect_utf16le_nobom.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDStreamInfoCLI", "XDStreamInfoCLI\XDStreamInfoCLI.csproj", "{F001B1E1-FAF3-4A1F-B398-B39ADAD656DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D96294B-1E46-4EE4-A388-A2A617D1FA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D96294B-1E46-4EE4-A388-A2A617D1FA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D96294B-1E46-4EE4-A388-A2A617D1FA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D96294B-1E46-4EE4-A388-A2A617D1FA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A34EF4-4BA9-4D42-9321-829CD83BDB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A34EF4-4BA9-4D42-9321-829CD83BDB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A34EF4-4BA9-4D42-9321-829CD83BDB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A34EF4-4BA9-4D42-9321-829CD83BDB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F001B1E1-FAF3-4A1F-B398-B39ADAD656DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F001B1E1-FAF3-4A1F-B398-B39ADAD656DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F001B1E1-FAF3-4A1F-B398-B39ADAD656DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F001B1E1-FAF3-4A1F-B398-B39ADAD656DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62A34EF4-4BA9-4D42-9321-829CD83BDB49} = {682E5C37-5FA6-4266-ACB1-4AA084AF2ADD}
+		{FA2FD8A1-2639-495C-954E-73D8DF74AE33} = {682E5C37-5FA6-4266-ACB1-4AA084AF2ADD}
+	EndGlobalSection
+EndGlobal
